@@ -89,6 +89,10 @@ body {
   margin-bottom: 10px;
 }
 
+.masthead-brand-logo {
+  display: none;
+}
+
 .masthead-nav > li {
   display: inline-block;
 }
@@ -120,6 +124,18 @@ body {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+  }
+  .masthead-brand-logo {
+    float: left;
+    display: inline;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .masthead-brand-banner {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
   .masthead-nav {
     float: right;
